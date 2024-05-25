@@ -1,212 +1,276 @@
 
-@media only screen and (max-width:1200px) 
-{
-  .nevegation-bar{
-   
-    padding-top: 20px;
-    display: flex;
-  }
-  .list-iteam{
-    display: flex;
-    align-items: center;
-    padding-left: 1rem;
-  }
-  .list{
-    
-    color: rgb(94, 98, 98);
-    font-size: large;
-    display: flex;
-    /* display: inline; */
-    padding: 1rem;
-  
-   
-  }
-  .buttons{
-    display: flex;
-    display: inline;
-    align-items: center;
-    flex-direction: row;
-    border: solid rgb(23, 23, 90);
-    background-color: blue;
-    color: rgb(236, 47, 5);
-    font-size: medium;
-    font-weight: 500;
-    padding: 10px 20px ;
-    margin-left: 5px;
-    border-radius: 10px;
-    cursor: pointer;
 
+@media only screen and (max-width:1041px) {
+  .nevegation-bar {
+    position: relative;
+    padding: 0 20px;
+}
+.nevegation-bar .list {
+    
+}
+.list-iteam {
+    flex-direction: column;
+    position: absolute;
+     top: 10px;
+    left: 0;
+    right: 0;
+    align-items: center;
+    width: 100%;
+    list-style-type: none;
+    background-color: #fff;
+    padding: 20px 0;
+    gap: 10px;
+}
+
+  .Hero-Section{
+    margin-top: 200px;
+    display: block;
+    display: inline;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 .left-section{
- font-size: 20px;
-}
-.second-section{
-  font-size: 5px;
-  margin-left: 50px;
-  
-}
-.second-right-part h1{
-  display: flex;
-  margin-top: 0px;
-font-size: 50px;
-line-height: 60px;
-
-  
-   
+ justify-content: center;
+ 
+ align-items: center;
  }
-.thorhosting-pairent-div{
-  margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-bottom: 50px;
-    margin-left: 100px;
-    padding: 20px;
-}
-
-.cards-hosting{
-  padding: 50px;
-}
-.forth-main-h-and-p{
-  display: flex;
- margin-left: 100px;
-  
-}
-.section-five-price-card{
-  display: flex;
-  display: inline;
-  gap: 20px;
-}
-.last-heading-left h1{
-  font-size: 50px;
-  margin-left: 20px;
-}
-.last-heading-left{
-  /* display: flex; */
-  justify-content:space-evenly;
-  align-items: center;
-
-}
-.logo-section{
+ .right-section{
+  justify-content: flex-start;
  
 }
-.menu{
-  display: inline;
-}
-  
-
-.Hero-Section{
-  display: flex;
-  display: inline;
-  justify-content: center;
-  align-items: center;
-}
-.left-section{
-  margin-left: 200px;
-  margin-top: 100px;
-
- }
- .left-section h1{
-  font-size: 50px;
-  font-weight: 500;
-  margin-left: 20px;
- }
- .left-img{
-  display: flex;
-  height: 400px;
-  margin-left: -20px;
-   margin-top: 50px;
+.left-img{
+  display: none;
+  display: block;
+ 
  }
  .second-section{
-display: inline;
-margin-left: 500px;
-
-}
-.second-img{
-  display: flex;
-  height: 300px;
-  margin-right: 0px;
-  margin-left: 200px;
- }
- .second-right-part{
-  margin-left: 200px;
-
+  display: block;
+   display: inline;
+   flex-wrap: wrap;
+   align-items: center;
+   margin-top: 50px;
+   display: flex;
+   justify-content: center;
+  
+ 
  }
  .third-section{
-  margin-top: 200px;
- font-size: 30px; 
-  display: inline; 
-}  
-                                                                  
-.forth-main-h-and-p{
+  flex-wrap: wrap;
+  margin-top: 50px;
+  display: flex;
+}                            
+.third-section-img{
+  display: flex;
+  height: 200px;
 
-  display: inline;
- }
- .forth-heading{
-  margin-left: 100px;
- }
- .forth-paira{
-  margin-left: 100px;
- font-weight: 200;
-  font-size: medium;
- }
- .section-five-price-card{
-  display: inline;
-   
-  
 }
-.fist-card{
-margin-left: 50px;
+.forth-section{
+  flex-wrap: wrap;
+  }
+  .forth-main-h-and-p p {
+    font-size: 10px;
+    margin-top: 30px;
+    line-height: 20px;
+   
+}
 
+.last-section{
+  color: white;
+   display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ }
+ .last-heading-left{
+   margin-right: 200px;
+ }
+ .last-heading-left h1{
+   font-size: 25px;
+ }
+ .six-heading h1{
+  display: flex;
+  font-size: 35px;
+  justify-content: center;
+  padding-bottom:20px ;
+ }
+ .six-heading p{
+  font-size: 10px;
+}
+
+ }
 
 
  
+ @media only screen and (max-width:600px) {
+  .last-heading-left p{
+    margin-top: 20px;
+    font-size: 10px;
+  }
+  
+ }
 
+
+@media only screen and (max-width:1060px) {
+  .Hero-Section{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
-  .button-last{
-   color: #fefbfb;
+  
+   .list-iteam{ 
+    position: absolute;
+    gap: 50px;
+    /* flex-wrap: wrap; */
     
-  }
-  .last-section{
-    color: white;
-     display: inline;
-     font-size: 15px;
-     
-    }
-    .six-sec-blog{
-      display: inline;
-    }
+  } 
+ 
+
 }
 
-@media only screen and (max-width:800px){  
-    .nevegation-bar{
-      padding-left: 1rem;
-      padding-top: 5px;
-      display: flex;
-      flex-direction: column;
+@media only screen and (max-width:1300px) 
+{
+  .Hero-Section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  .right-section {
+    order: -1;
+}
+  .left-section h1{
+    font-size: 40px;
+    font-weight: 700;
+   }
+   .left-section p{
+    font-size: 10px;
+    margin-top: 30px;
+    line-height: 20px;
+   }
+  .left-img{
+    display: flex;
+    height: 300px;
+   }
+          
+   .second-section{
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+   
+   }
+   .second-img{
+    display: flex;
+    height: 300px;
+    margin-right: 20px;
+   }
+   .second-right-part h1{
+    margin-top: 20px;
+    line-height: 50px;
+     font-size: 40px;
+     
+   }
+   .second-right-part p{
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight:700;
+    line-height: 25px;
+   }
+   .third-section-img{
+    display: flex;
+    height: 400px;
+    
+  }
+  .third-section-left h1{
+    margin-top: 20px;
+    line-height: 50px;
+    font-size: 40px;
+  }
+  .third-section-left p{
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight:500;
+    line-height: 20px;
+  }
+  .forth-main-h-and-p{ 
+     flex-wrap: wrap;
+    align-items: center;
+   justify-content: center;
+   font-size: 20px;
     }
-    .list-iteam{
-      /* display: flex; */
-      justify-content: flex-start;
-      align-items: center;
-      padding-left: 22rem;
+    .forth-main-h-and-p h1 {
+      line-height: 50px;
+      font-size: 40px;
+      color: rgb(61, 57, 57);
   }
-  .list{
-    color: rgb(94, 98, 98);
-      font-size: small;
+    .heading{
+      line-height: 50px;
+      font-size: 40px;
+      color: rgb(61, 57, 57);
+     }
+     .pairagraph {
+      font-size: 15px;
+      font-weight:700;
+      line-height: 30px;
+      color: rgb(179, 184, 189);
+   }
+     .paira{
+      font-size: 15px;
+      font-weight:700;
+      line-height: 30px;
+      color: rgb(179, 184, 189);
+     }
+     .thorhosting-pairent-div{
+  
       display: flex;
-      padding-top: 1.5rem;
-      cursor: pointer;
-  }
-  .buttons{
-    border: solid rgb(90, 35, 23);;
-    background-color: transparent;
-    color: rgb(23, 23, 90);
-    font-size: medium;
-    font-weight: 600;
-    padding: 15px 40px ;
-    margin-left: 30px;
-    border-radius: 10px;
-    cursor: pointer;
-  }
-  }
+      flex-wrap: wrap;
+    
+    }
+    .sectin-five{
+      margin-top: 50px;
+    }
+    .section-five-price-card{
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+    .six-heading h1{
+      display: flex;
+      font-size: 40px;
+      justify-content: center;
+      padding-bottom:20px ;
+     }
+     .six-heading p{
+      font-size: 12px;
+    }
+  .six-sec-blog{
+ 
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.last-heading-left h1{
+  font-size: 30px;
+}
+.last-heading-left p{
+  margin-top: 10px;
+}
+.button-last{
+  border:  1px solid rgb(197, 199, 201);
+  background-color:transparent;
+  color: white;
+  font-weight: 900;
+  border-radius: 10px;
+  margin-left: -50px;
+  margin-top: 20px;
+  padding: 10px 30px;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+.main-footer{
+
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+}
